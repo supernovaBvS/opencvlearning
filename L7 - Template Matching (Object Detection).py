@@ -2,8 +2,9 @@ import cv2
 import numpy as np
 
 img = cv2.imread('/Users/dev/Desktop/union_work/opencvlearning/train/soccer_practice.jpg', 0)
-tem = cv2.imread('/Users/dev/Desktop/union_work/opencvlearning/train/shoe.png', 0)
-h, w = tem.shape
+tem = cv2.imread('/Users/dev/Desktop/union_work/opencvlearning/train/ball.png', 0)
+h, w = tem.shape[::-1]
+# h, w = tem.shape
 # print(img)
 # (height, width, channels)
 

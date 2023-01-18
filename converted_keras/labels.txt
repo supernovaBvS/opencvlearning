@@ -1,0 +1,3 @@
+0 no glasses
+1 with glasses
+2 holding glasses
